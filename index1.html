@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head> <!--defnit lentête de document html-->
+<title> Formulaire   </title>
+</head>
+<body>
+<form method="get"action="formule1.html" ><fieldset style="background:#ffffdd"><legend  style="background:#ffff88"><b>client</b></legend><table>
+<tr>
+<td>Civilite</td> <td><input type="radio" id="Mademoiselle" name="civilite"  /> Mademoiselle  <input type="radio" id="Madame" name="civilite"  /> Madame <input type="radio" id="Monsieur" name="civilite"  />  Monsieur </td> 
+</tr>
+<tr>
+<td> Nom  / Prenom </td>  <td> <input type="text" id="nom&prenom" />
+</tr>
+<tr><td> Adresse </td><td><input type="text" id="adresse" /></td></tr>
+<tr><td>No postal/ Localite </td> <td><input type="text" id="no postale&localite" /> </td><td><input type="text" id="adresse" /></td></tr>
+<tr><td>Pays</td>
+<td><select>
+<option value="suisse"selected >  Suisse  </option>
+<option  value="japon"> Japon   </option>
+<option  value="egypte" > Egypte   </option>
+<option value="france">  France  </option>
+ </select></td></tr>
+
+<tr><td>Plateforme(s)</td> <td> 
+<input type="checkbox" id="Windows" name="Windows"  /> Windows
+<input type="checkbox" id="" name="Macintosh"  />   Macintosh
+<input type="checkbox" id="Unix" name="Unix" checked  />   Unix  </td></tr>
+
+<tr><td>Application(s)</td>  <td><select size="5" multiple> 
+<option  value="bureautique" selected> Bureautique  </option>
+<option  value="DAO" > DAO   </option>
+<option value="Statistiques">  Statistiques  </option>
+<option  value="SGBD"> SGBD  </option>
+<option  value="Internet" selected > Internet  </option> </td>
+
+</select></tr>
+</table></fieldset>
+
+
+<CENTER><table><tr><td><input type= "submit"  value="Soumettre le formulaire"/>
+<input type= "reset"  value="effacer"/></td></tr></table></center></form>
+
+
+
+
+</body>
+</html>
